@@ -1,0 +1,733 @@
+{
+    "extracted_information": "Extracted information for 40 NYC rooftop bars as requested. Note: Main image URLs were not present in the provided web content for any listing.",
+    "specifications": {},
+    "pricing": {},
+    "features": [],
+    "statistics": {},
+    "temporal_info": {},
+    "geographical_data": {},
+    "references": [],
+    "rooftop_bars": [
+        {
+            "name": "Bar 54",
+            "address": "135 W 45th St, New York, NY 10036",
+            "description": "The tallest rooftop bar in Times Square, and also among the highest in NYC, set on the 54th floor of Hyatt Centric Times Square.",
+            "features": [
+                "54th Floor",
+                "Times Square location",
+                "Indoor / Outdoor",
+                "Superb river-to-river view",
+                "View of Chrysler Building and lower Manhattan",
+                "Seasonal and creative craft cocktails with local influences",
+                "Fine selection of beer, wine and small plates",
+                "Intimate yet vibrant atmosphere",
+                "Good for sunset hours",
+                "Reservations highly recommended"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Bar Cima",
+            "address": "30 W 39th St, New York, NY 10018",
+            "description": "Stylish Latin cocktail bar and lounge on the rooftop of Grayson Hotel. Perched 29 floors above Midtown Manhattan, the indoor-outdoor Bar Cima invites you to an intimate oasis, filled with luxurious touches.",
+            "features": [
+                "29th Floor",
+                "Midtown South location",
+                "Indoor / Outdoor",
+                "Panoramic views over New York City (Empire State Building, East and Hudson Rivers)",
+                "Classic cocktails and Latin-inspired creative innovations",
+                "Expansive mezcal & tequila collection",
+                "Good for drinks and views high above NYC before, during, and after sunset",
+                "One of the best for Mezcal and Tequila",
+                "Outdoor patio is first come, first served"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Creatures Rooftop",
+            "address": "518 W 27th St, New York, NY 10001",
+            "description": "Perched on top of Hotel Almeda High Line, in the heart of the lively Chelsea neighborhood, Creatures Rooftop invites to coastal vibes and flavors high above the concrete jungle.",
+            "features": [
+                "12th Floor",
+                "Chelsea location",
+                "Indoor / Outdoor",
+                "Beautiful view of Chelsea and surrounding skyscrapers",
+                "Mediterranean and Middle Eastern dishes by Chef Neil Strauber",
+                "Refreshing signature cocktails, spritzes, bubbles and beers",
+                "Good for happy hour sips and bites",
+                "Cozy date-night",
+                "Fun-filled and flavourful weekend brunch",
+                "Happening nights with DJ talents",
+                "Offers cocktail classes"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Castell Rooftop Lounge",
+            "address": "260 W 40th St, New York, NY 10018",
+            "description": "Found on the 21st floor of AC Hotel Times Square, Castell Rooftop Lounge is an all-season refuge to enjoy elevated hours above the bustling streets of the Garment District.",
+            "features": [
+                "21st Floor",
+                "Times Square location",
+                "Indoor / Outdoor",
+                "Majestic views over the towering Manhattan skyline",
+                "Recapturing the spirit of a classic cocktail lounge",
+                "Plenty of vibes from the 60s",
+                "Extra love for the iconic Martini",
+                "Craft beer, wine, non-alcoholic spirits",
+                "Tasty selection of tapas and shareable plates",
+                "Refined yet relaxed atmosphere",
+                "Great for gathering with friends, family and coworkers",
+                "Loved their Martini\u2019s",
+                "Happy Hour (Monday-Friday 4-6pm)"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Dear Irving on Hudson",
+            "address": "310 W 40th St, New York, NY 10018",
+            "description": "Dear Irving on Hudson is a very stylish, multi-level rooftop & cocktail bar, located on the 40th and 41st floor of Aliz Hotel Times Square.",
+            "features": [
+                "40th & 41st Floor",
+                "Times Square location",
+                "Indoor / Outdoor",
+                "Sweeping 360\u00b0 views of the Manhattan skyline",
+                "Fresh plates to share",
+                "Perfect spot for evening cocktails",
+                "Generous and well planned cocktail menu",
+                "Delicious cocktails and spectacular 360\u00b0 views",
+                "'All in' on their well-made cocktails",
+                "Offers cocktails class"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Artie\u2019s Backroom & Rooftop",
+            "address": "145 E 39th St, New York",
+            "description": "Floating high above Midtown East, Artie\u2019s Backroom & Rooftop blends new school energy with old school charm, and features both a cozy interior lounge and a unique outdoor terrace.",
+            "features": [
+                "17th Floor",
+                "Murray Hill location",
+                "Indoor / Outdoor",
+                "Stunning view of the Manhattan skyscrapers among brick arches, ivy walls and hanging lanterns",
+                "Approachable menu",
+                "Craft cocktails, wide range of margaritas, martinis and spritz, cold beers and house wine",
+                "Old school bites",
+                "Good for after works & hangouts with a view",
+                "Fun and friendly vibe",
+                "Home to the largest sports viewing screen in Midtown East"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "elNico Rooftop",
+            "address": "288 N 8th St, Brooklyn, NY 11211",
+            "description": "Modern rooftop bar and restaurant, filled with Mexican flavors and good times, located in the heart of Williamsburg in Brooklyn.",
+            "features": [
+                "11th Floor",
+                "Brooklyn location",
+                "Indoor / Outdoor",
+                "Panoramic views over both the Brooklyn & Manhattan skyline",
+                "Mexican food including both light bites and larger plates",
+                "Cocktails with a focus on agave-based spirits",
+                "Good for Mexican drinks and food",
+                "Good for a good time and great views in a lively atmosphere",
+                "Weekend rooftop brunch available",
+                "Fairly priced"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Dear Irving on Broadway",
+            "address": "1717C Broadway, New York, NY 10019",
+            "description": "Luxe and speakeasy-inspired cocktail parlor, overlooking the Theater District, located at 1717C Broadway, between 54th & 55th St.",
+            "features": [
+                "5th Floor",
+                "Midtown location",
+                "Indoor / Outdoor",
+                "Close by skyscraper views in the heart of the Theater District",
+                "Cocktail menu pays tribute to Broadway legends",
+                "Eclectic selection of light bites (plays on classic NYC street eats, deli staples and theater snacks)",
+                "Perfect destination for elevated pre- or post show drinks",
+                "Well worth a visit any given night for sophisticated sips and vibes"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Leonessa",
+            "address": "102 North End Ave, New York, NY 10282",
+            "description": "Perched high above the heart of downtown Manhattan, the open-air Leonessa Rooftop evokes the splendor of an Italian terrace at golden hour, and comes adorned with lush lemon trees, verdant greenery, an Amalfi Coast-inspired fountain and bold, colorful seating.",
+            "features": [
+                "16th Floor",
+                "Battery Park City location",
+                "Outdoor only",
+                "Breathtaking and exceptional views over the Hudson River and the Statue of Liberty",
+                "Elevated bar program",
+                "Love letter to Italy's rich drinking traditions",
+                "Expertly-curated selection of spirits, wines, beers, and non-alcoholic beverages",
+                "Cocktail menu blending timeless classics with inventive modern interpretations",
+                "Escape the hustle and bustle of downtown Manhattan",
+                "Transport yourself to golden hour on the Amalfi Coast",
+                "Cocktails served with a rotating menu of complimentary aperitivo-style snacks",
+                "Versatile venue for private events and celebrations"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Haven Rooftop NYC",
+            "address": "132 W 47th St, New York, NY 10036",
+            "description": "Seasonally themed rooftop retreat in the heart of the bustling Theatre District. The Haven Rooftop NYC is situated on top of the lux boutique Sanctuary Hotel New York, right in the city center.",
+            "features": [
+                "9th Floor",
+                "Times Square location",
+                "Indoor / Outdoor",
+                "Majestic view amidst the skyscrapers in the heart of Times Square and Midtown Manhattan",
+                "Modern American cuisine for lunch and dinner",
+                "Handcrafted cocktails, wines and a good set of beers",
+                "Vibrant and tasty rooftop brunch",
+                "Laid back afternoon cocktails",
+                "One of the most popular rooftop brunches in NYC"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Elsie Rooftop",
+            "address": "1412 Broadway, New York, NY 10018",
+            "description": "25th floor rooftop lounge, serving seasonal light bites and well-crafted cocktails. The rooftop really brings a slice of fashionable 1920s cocktail bar to the heart of Midtown Manhattan.",
+            "features": [
+                "25th Floor",
+                "Midtown West location",
+                "Indoor / Outdoor",
+                "Surrounded by a wraparound terrace overlooking the Midtown skyscrapers",
+                "Progressive mixology cocktails ('Elsie De Wolfe' is a given)",
+                "Wines, champagne",
+                "Upscale seasonally focused light fare menu",
+                "Fantastic year-round destination for fine after-work drinks with a view",
+                "Vibrant weekend rooftop party",
+                "Large communal bar area open for all"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Upstairs at the Kimberly",
+            "address": "145 East 50th Street, New York, NY 10022",
+            "description": "Upstairs at the Kimberly is a sophisticated oasis above the buzzing streets below, floating thirty stories above Manhattan, on top of the Kimberly Hotel, in the east part of Midtown.",
+            "features": [
+                "30th Floor",
+                "Midtown East location",
+                "Indoor / Outdoor",
+                "Fantastic views of the iconic Chrysler Building and the impressive cityscape",
+                "Large set of crafted specialty cocktails",
+                "Fine wines",
+                "Eclectic array of small plates",
+                "Year-around cocktails with a view",
+                "Fantastic rooftop brunch every weekend between 11-4pm"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "The DL",
+            "address": "95 Delancey St, New York, NY 10002",
+            "description": "Located on the corner of Delancey Street & Ludlow in Manhattan\u2019s Lower East Side, The DL NYC is a cool, vibrant and multi-level lounge, offering rooftop, restaurant and event space all in one.",
+            "features": [
+                "3rd Floor",
+                "Lower East Side location",
+                "Indoor / Outdoor",
+                "Fantastic and unique views over the Lower East Side skyline and the Williamsburg Bridge",
+                "Bottle service and sharables like sliders, flat breads and quesadillas",
+                "Vibrant daytime events or after work",
+                "Nightlife experiences every weekend",
+                "Hottest and most buzzing outings above Lower East Side",
+                "Full party night destination",
+                "Bottle Service with premium spirits, champagnes, and mixers"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Vida Verde",
+            "address": "248 W 55th St, New York, NY 10019",
+            "description": "Vibrant Mexican dining experience, with Rooftop Margarita Market. Vida Verde is a colorful, creative and tri-level destination from Pmac's Hospitality Group.",
+            "features": [
+                "2nd Floor",
+                "Midtown West location",
+                "Indoor / Outdoor",
+                "Located amidst the skyscrapers (not for grand views)",
+                "Well-loved Mexican fare mixed with New York\u2019s casual and metropolitan approach",
+                "Some of the best Margaritas in town",
+                "Rooftop is a 'Margarita Market'",
+                "Rooftop is first come, first served",
+                "Inside area open for lunch, dinner and bottomless weekend brunch all year round"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Terrace on 7 | El Ta'koy",
+            "address": "246 Spring St, New York, NY 10013",
+            "description": "An exclusive and elevated Hawaiian-inspired poolside experience, with both bright and modern year-round interior lounge and outdoor terrace for exciting summer specials.",
+            "features": [
+                "7th Floor",
+                "SoHo location",
+                "Indoor / Outdoor",
+                "Breathtaking view of the Soho skyline",
+                "Handcrafted cocktails",
+                "Modern Asian-Hawaiian gastronomic experience from Chef Luis Pous",
+                "Set to transport guests to the shores of Hawaii",
+                "Poolside drinks and food with a view of Soho",
+                "Book one of the cabanas for exclusive offerings and unique poolside spa services"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "BLU33 Rooftop",
+            "address": "325 W 33rd St, New York, NY 10001",
+            "description": "Modern, stylish and seasonal rooftop lounge with premier location and amazing views.",
+            "features": [
+                "24th Floor",
+                "Garment District location",
+                "Outdoor only",
+                "Unobstructed views over NYC (Midtown to lower Manhattan, Madison Square Garden, Hudson Yards and Penn Station)",
+                "Classic cocktails, local beers, wine and bubbles",
+                "Light fare including skewers, pizza and tenders",
+                "Great spot for happy hour and sunsets",
+                "Great spot for nightly fun with a glowing Manhattan at your feet",
+                "Illuminated sky swing for photo-op",
+                "First floor BLU33 Restaurant Lounge & Patio Bar open during colder months"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "STK Rooftop",
+            "address": "1717C Broadway, New York, NY 10019",
+            "description": "STK Rooftop is an upscale and intimate dining room and lounge above the Meatpacking District. The stylish, lush and intimate 4th floor rooftop blends bar, lounge and table seating in a superb way.",
+            "features": [
+                "4th Floor",
+                "Meatpacking District location",
+                "Indoor / Outdoor",
+                "Prime views over the Meatpacking District, Hudson River and the High Line",
+                "Classic and refreshing STK cocktails",
+                "Fine selection of wines and bubbles",
+                "Great array of signature dishes (raw bar selections, high quality steaks)",
+                "Good for social happy hours, memorable dinners under the stars, vibrant DJ nights",
+                "Elevated weekend brunch",
+                "Must try the steaks",
+                "Rooftop brunch available on weekends"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Vue 180 Rooftop",
+            "address": "525 8th Ave, New York, NY 10018",
+            "description": "Found just steps away from Madison Square Garden, in the heart of Midtown Manhattan, Vue 180 Rooftop is a modern addition to the NYC rooftop heaven.",
+            "features": [
+                "28th Floor",
+                "Garment District location",
+                "Indoor / Outdoor",
+                "Stunning views of the NYC skyline and most iconic landmarks (Empire State Building as focal point)",
+                "Curated selection of both food and drinks",
+                "Refreshing shareables",
+                "Classic and specialty cocktails",
+                "Local and rotating line-up of beer and wine",
+                "Good for relaxed cocktails with panoramic views",
+                "Cosy winter sessions in the rooftop igloos",
+                "Visit during 'Reversed Happy Hour' on weekdays from 7pm",
+                "Open daily to everyone on a first come, first served basis"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "The Dickens",
+            "address": "783 8th Ave, New York, NY 10036",
+            "description": "Located on 8th Avenue, between 47th and 48th Street, The Dickens is an inclusive, immersive and impressive venue, and a one-of-its-kind destination in the iconic Hell\u2019s Kitchen.",
+            "features": [
+                "4th Floor",
+                "Hell's Kitchen location",
+                "Indoor / Outdoor",
+                "Surrounding skyscraper views",
+                "Expect vibrant flavors and colors into each cocktail",
+                "Outdoor haven",
+                "Happiness, acceptance and vibrant celebrations come together",
+                "The only gay-rooftop bar in NYC",
+                "Fairly priced ('affordable' cocktails)"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Interlude Rooftop Lounge",
+            "address": "150 W 48th St, New York, NY 10017",
+            "description": "In the heart of Times Square, near Broadway and the Theatre District, Interlude Rooftop Lounge is an upscale and modern addition to the NYC rooftop scene.",
+            "features": [
+                "38th Floor",
+                "Times Square location",
+                "Indoor / Outdoor",
+                "Panoramic skyscraper views of Manhattan",
+                "Indulge in exquisite and hand-crafted cocktails",
+                "Ranging from shaken and stirred, to luxurious classics",
+                "Sanctuary in the sky",
+                "Memorable, high-quality experience that is as inclusive as it is unique",
+                "Perfect spot for some late night cocktails Fri-Sat (open until 2am)"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Harriet's Rooftop",
+            "address": "60 Furman St, Brooklyn, NY 11201",
+            "description": "Harriet's Rooftop is an urban chic, lush and modern rooftop, with an open-air and seasonal outdoor terrace, as well as an indoor lounge one floor below.",
+            "features": [
+                "11th Floor",
+                "Brooklyn location",
+                "Indoor / Outdoor",
+                "Some of the best views over Manhattan",
+                "Amazing panoramas",
+                "Lovely vistas over Brooklyn Bridge",
+                "Expect vibrant flavors and colors into each cocktail",
+                "Good for sunset cocktails or weekend rooftop party nights",
+                "Time your visit when they have live DJs",
+                "Small but fantastic rooftop pool (for hotel guests)"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Le Bain & The Rooftop",
+            "address": "848 Washington St, New York, NY 10014",
+            "description": "Le Bain & The Rooftop is located at The Standard High Line in downtown New York. More precise in the Meatpacking District.",
+            "features": [
+                "18th Floor",
+                "High Line location",
+                "Indoor / Outdoor",
+                "Sweeping views of Hudson River, Downtown Manhattan and the New Jersey skyline",
+                "Classic cocktail list",
+                "Most focus is on the vibe",
+                "Perfect to visit during weekend afternoon for relaxing drinks in the sun",
+                "Vibrant feel with live DJs and mingle with a festive crowd at night",
+                "Dress to impress",
+                "Make reservation during nighttime"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Panorama Room",
+            "address": "22 N Loop Rd, New York, NY 10044",
+            "description": "Stylish rooftop bar and lounge perched on top of the fabulous Graduate Roosevelt Island, Panorama Room offers quite a unique NYC rooftop experience.",
+            "features": [
+                "18th Floor",
+                "Roosevelt Island location",
+                "Indoor / Outdoor",
+                "Breathtaking 360\u00b0 views of the Manhattan skyline and surroundings",
+                "Only rooftop in NYC with this view",
+                "Wide selection of creative and crafted signature cocktails",
+                "Seafood-focused menu ('Seafood Tower', 'Caviar Nachos')",
+                "One of the best views in the world",
+                "Good for upscale afternoon cocktails",
+                "Weekend brunch is amazing"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Westlight NYC",
+            "address": "111 N 12th St, Brooklyn, NY 11249",
+            "description": "Westlight is a year-round rooftop lounge, located on the 22nd floor of the William Vale in the trendy Williamsburg area in Brooklyn.",
+            "features": [
+                "22nd Floor",
+                "Brooklyn location",
+                "Indoor / Outdoor",
+                "Sweeping city views over the famous Manhattan skyline, East River and surrounding buildings in Brooklyn",
+                "Dynamic menu with both classic and original cocktails",
+                "Long list of wines, craft beer, rare spirits",
+                "Small plates with inspiration of global street food",
+                "Best sunset in NYC",
+                "Good for dynamic menu and sweeping views"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Sandbar Rooftop",
+            "address": "152 W 26th St, New York, NY 10001",
+            "description": "Hamptons-inspired rooftop oasis, open year-round, found on the 23rd floor of the Hilton New York Fashion District in Chelsea.",
+            "features": [
+                "23rd Floor",
+                "Chelsea location",
+                "Indoor / Outdoor",
+                "Nearly 360\u00b0 views of Manhattan and the Empire State Building",
+                "Signature handcrafted cocktails designed by the house mixologist",
+                "Beer and wine",
+                "Fresh sharables and pinsa-style pizza",
+                "Relaxing and good-vibes beach escape high above NYC",
+                "Open for drinks, bites and views every afternoon and evening",
+                "Cosy setting during the colder months"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "The Crown",
+            "address": "50 Bowery, New York, NY 10013",
+            "description": "The Crown rooftop bar is set on top of the fantastic Hotel 50 Bowery, and features both indoor lounge and two outdoor rooftop terraces.",
+            "features": [
+                "21st Floor",
+                "Chinatown location",
+                "Indoor / Outdoor",
+                "Fantastic 360\u00b0 views over the Big Apple (Brooklyn Bridge, Empire State Building and One World Trade included)",
+                "Tasty and well-crafted signature cocktails",
+                "A few crafts on draft",
+                "Nice selection of wines",
+                "Variety of international bar bites and delicious desserts",
+                "One of the most spectacular views in NYC",
+                "Sunset to die for",
+                "Come early afternoon for a more relaxed lounge-vibe",
+                "Later for nice beats and drinks"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "St. Cloud Rooftop Bar",
+            "address": "6 Times Square, New York, NY 10036",
+            "description": "St. Cloud Rooftop is a mix of cirque-like, biergarten and speak-easy fun, located at the five star Knickerbocker Hotel, just off Times Square.",
+            "features": [
+                "17th Floor",
+                "Times Square location",
+                "Indoor / Outdoor",
+                "Lovely view of all the Times Square skyscrapers (right among them)",
+                "Wide selection of cocktails, craft beers, and champagne on bottle",
+                "Menu of tasty bar bites that changes over the season",
+                "Break and some stylish afternoon cocktails from the buzzing streets of Times Square",
+                "One of the best spots for NYE to watch the 'Ball Drop'"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Overstory",
+            "address": "70 Pine St, New York, NY 10005",
+            "description": "Elegant, elevated and awarded rooftop cocktail bar, located in Manhattan\u2019s Financial District, or rather high, high above Manhattan\u2019s Financial District.",
+            "features": [
+                "64th Floor",
+                "Financial District location",
+                "Indoor / Outdoor",
+                "Amazing 360\u00b0 views over the NYC skyline and all surrounding areas",
+                "Plenty of artistic cocktails, crafted to perfection by the mixologists",
+                "Fine selection of wine and beer",
+                "Savory bar bites",
+                "Some of the best and most well-made rooftop cocktails in the world",
+                "Reservations are highly recommended",
+                "Combine drinks with a meal at fine dining restaurant Saga one floor below"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "The Roof at PUBLIC Hotel",
+            "address": "215 Chrystie St, New York, NY 10002",
+            "description": "Glassed-in rooftop bar with lush outdoor terrace, perched on top of the affordable luxury PUBLIC Hotel on Lower East Side.",
+            "features": [
+                "18th Floor",
+                "Lower East Side location",
+                "Indoor / Outdoor",
+                "Panoramic 360\u00b0 views over the city (amazing anywhere you go up here)",
+                "Extensive and varied menu full of delicious and creative cocktails",
+                "Craft and commercial beers",
+                "Wines and popular spirits",
+                "Vibrant party night with live DJs",
+                "Sweeping NYC views as far as the eye can see",
+                "Favorite time to visit is during 'Sunset Happy Hour' (Mon-Fri 5pm-7pm)"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "JIMMY SoHo",
+            "address": "15 Thompson Street, New York, NY 10013",
+            "description": "Classic venue redesigned during 2020, and now a sleek and luxurious rooftop bar sitting on top of the hotel ModernHaus, right in the heart of SoHo.",
+            "features": [
+                "18th Floor",
+                "SoHo location",
+                "Indoor / Outdoor",
+                "Breathtaking views of the Freedom Tower, New Jersey, and the Empire State Building",
+                "Fine selection of crafted and seasonal specialty cocktails",
+                "Wines by both the glass and bottle",
+                "Fine bar bites created by Michelin-starred chef George Mendes",
+                "Daytime rooftop pool party or full night celebration under the stars",
+                "Highly popular",
+                "Try to make reservations or be in good time"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Electric Lemon",
+            "address": "33 Hudson Yards, New York, NY 10001",
+            "description": "Perched on top of the five star Equinox Hotel in Hudson Yards, Electric Lemon is a luxurious rooftop oasis like no other in NYC.",
+            "features": [
+                "24th Floor",
+                "Hudson Yards location",
+                "Indoor / Outdoor",
+                "Beautiful setting",
+                "Impressive views over Hudson River and the city skyline",
+                "Wide range of food and drinks",
+                "Light bites to seasonal offerings at dinner and rooftop brunch on weekends",
+                "Large selection of wine, champagne and signature cocktails",
+                "Upscale rooftop dinner or an elevated weekend brunch",
+                "Amazing rooftop pool overlooking the city skyline and Hudson River (for hotel guests)"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "230 Fifth Rooftop Bar",
+            "address": "230 Fifth Avenue, New York, NY 10001",
+            "description": "230 Fifth rooftop bar is one of the largest and most famous rooftop bars in NYC, named after its location at 230 5th Ave.",
+            "features": [
+                "20th Floor",
+                "NoMad location",
+                "Indoor / Outdoor",
+                "Magical views of the Manhattan skyline (Empire State Building as focal point)",
+                "Classic & specialty cocktails along with beer and wine",
+                "Food ranges from bar bites to more full dinner meals (burgers, salmon, fish & chips, sushi)",
+                "Wintertime rooftop igloos",
+                "Fun night out with friends",
+                "Super popular and towards touristic",
+                "Be prepared for massive crowds"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Daintree Rooftop & Lounge",
+            "address": "25 W 38th St 29th Floor, New York, NY 10018",
+            "description": "Stylish rooftop cocktail bar reimagining the NYC rooftop bar scene from an Aussie point-of-view, perched on top of Hotel Hendricks in the heart of Midtown South.",
+            "features": [
+                "29th Floor",
+                "Midtown South location",
+                "Indoor / Outdoor",
+                "South-facing views includes an unobstructed outlook over the Empire State Building",
+                "Cocktails and drinks, including a fine selection of Martinis",
+                "Crafted and contemporary versions of New York classics",
+                "Wine list with a distinctly Australian accent",
+                "Tasty cocktails and bar bites with a view of the Empire State Building",
+                "Monthly specials on food and drinks (especially 4-6pm)"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Refinery Rooftop",
+            "address": "63 West 38th Street, New York, NY 10018",
+            "description": "An all-season rooftop venue, open 7 days a week, located at the five star Refinery Hotel in Midtown Manhattan.",
+            "features": [
+                "13th Floor",
+                "Midtown location",
+                "Indoor / Outdoor",
+                "Amazing views over the Empire State Building and Manhattan skyline",
+                "Mixology signature cocktails",
+                "'Old Fashioneds'",
+                "Large selection of whiskey",
+                "Wine/champagne/beer in both bottle or by the glass",
+                "Tasty New American menu",
+                "Sunny rooftop lunch",
+                "Relaxing afternoon cocktails",
+                "Nightly drinks and bites in a vibrant atmosphere",
+                "Rooftop brunch is amazing"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Magic Hour Rooftop Bar & Lounge",
+            "address": "485 7th Avenue, New York, 10018",
+            "description": "Large indoor/outdoor rooftop bar and lounge, featuring an 'urban amusement park' concept perched on the 18th floor of the fantastic MOXY NYC Times Square.",
+            "features": [
+                "18th Floor",
+                "Times Square location",
+                "Indoor / Outdoor",
+                "Sweeping skyline views with the Empire State Building as a focal point",
+                "Signature cocktails and a full menu of 'curiosities'",
+                "Spirits served in all forms and shapes, made perfect to share",
+                "Fun-filled evenings",
+                "Vibrant rooftop brunch with pancakes, eggs, sandwiches, cold pressed juices mixed with Magic Mimosas and cocktails",
+                "Priority rooftop access for MOXY guests",
+                "'Endless Drink Pass' available"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Ophelia",
+            "address": "3 Mitchell Pl 26th floor, New York, NY 10017",
+            "description": "Feeling a lot like a classic cocktail lounge from the the 1920s and 30s, Ophelia is an intimate rooftop located on top of the historic Beekman Tower.",
+            "features": [
+                "26th Floor",
+                "Midtown East location",
+                "Indoor / Outdoor",
+                "Sweeping 360\u00b0 views of Manhattan and Brooklyn",
+                "Crafted reinventions of classic and unique signature cocktails inspired by natural elements",
+                "Small but well-curated selection of 5-star bar bites and dishes",
+                "Romantic night out",
+                "Social weekend evening with friends",
+                "Live DJs highlight the lounge atmosphere",
+                "'Social Hours' on weekdays between 5-7pm (good prices on drinks and food)"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Highwater Rooftop",
+            "address": "120 Water St, New York, NY 10005",
+            "description": "Floating above the Financial District, Highwater Rooftop is a versitale and bi-level rooftop lounge and event space, mixing interior lounge with four outdoor terraces.",
+            "features": [
+                "25th Floor",
+                "Financial District location",
+                "Indoor / Outdoor",
+                "Downtown skyscrapers and Wallstreet views",
+                "Masterfully curated cocktail menu with twists on classic Old Fashions",
+                "Local craft beer program",
+                "Fine selection of wines",
+                "Lite bites (Shrimp Cocktail, Wagyu Beef Sliders)",
+                "Sky-high after work",
+                "Trendy nights with drinks and views",
+                "Delicious burger and 'Madison Mule' cocktail recommended",
+                "'All Day Friday Happy Hour'"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Bar Blondeau at Wythe Hotel",
+            "address": "80 Wythe Ave, Brooklyn, NY 11249",
+            "description": "Perched on the sixth floor of the fabulous Wythe Hotel in Williamsburg, Brooklyn, Bar Blondeau invites to a chic and French-inspired rooftop experience.",
+            "features": [
+                "6th Floor",
+                "Brooklyn location",
+                "Indoor / Outdoor",
+                "Sweeping views of the Manhattan skyline and the East River",
+                "Seafood-forward food menu (French, Spanish and Portuguese influences)",
+                "Crafted signature cocktails and frozen drinks",
+                "International selection of natural wines from up-and-coming wine regions",
+                "Sunset cocktails followed by a night time party",
+                "Stylish indoor lounge with panoramic windows for rainy/colder days",
+                "Sundays means afternoon tea service with a view"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "Azul Rooftop Bar",
+            "address": "525 Greenwich St, New York, NY 10013",
+            "description": "Set on top of Hotel Hugo, between SoHo and the Hudson, Azul Rooftop offers a large slice of Cuban summer vibes in the heart of NYC.",
+            "features": [
+                "20th Floor",
+                "SoHo location",
+                "Outdoor only",
+                "360\u00b0 views of Lower Manhattan (Freedom Tower and Statue of Liberty included)",
+                "Cuban inspired menu both for drinks and food",
+                "Weekdays: softer lounge vibe",
+                "Weekends: larger crowd and live DJs",
+                "Bar Hugo Rooftop (one floor below) is open and available year round"
+            ],
+            "image_url": null
+        },
+        {
+            "name": "The Skylark",
+            "address": "200 W 39th St, New York, NY 10018",
+            "description": "The Skylark NYC rooftop is a classic cocktail lounge in New York, located 30th floors above the buzz, near Times Square.",
+            "features": [
+                "30th Floor",
+                "Times Square location",
+                "Indoor / Outdoor",
+                "Stunning view of the Hudson River, the Empire State Building and Times Square",
+                "Large set of mixologist signature cocktails, made with the best ingredients",
+                "Tasty bar bites of the highest quality",
+                "Only open to the public during weekdays",
+                "Visit early for a more private experience",
+                "Terrace gets more crowded and live DJs usually bring the atmosphere up a notch later in the night",
+                "Dress code is business/upscale casual"
+            ],
+            "image_url": null
+        }
+    ]
+}
