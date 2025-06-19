@@ -1,5 +1,5 @@
 import React, { useState, useRef, useCallback } from 'react';
-import { Heart, X, MapPin, Star, Navigation } from 'lucide-react';
+import { Heart, X, MapPin, Star, Navigation, ArrowLeft, ArrowRight, MousePointer } from 'lucide-react';
 import { Rooftop } from '@/types/rooftop';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -27,6 +27,7 @@ export const SimpleSwipeCards: React.FC<SimpleSwipeCardsProps> = ({
   const [isDragging, setIsDragging] = useState(false);
   const [dragOffset, setDragOffset] = useState({ x: 0, y: 0 });
   const [startPosition, setStartPosition] = useState<TouchPosition>({ x: 0, y: 0 });
+  const [showDesktopHints, setShowDesktopHints] = useState(true);
   const cardRef = useRef<HTMLDivElement>(null);
 
   const handleLike = useCallback(() => {
@@ -34,12 +35,14 @@ export const SimpleSwipeCards: React.FC<SimpleSwipeCardsProps> = ({
     setLikedRooftops(prev => [...prev, currentRooftop]);
     onLike(currentRooftop);
     setCurrentIndex(prev => prev + 1);
+    setShowDesktopHints(false); // Hide hints after first interaction
   }, [currentIndex, rooftops, onLike]);
 
   const handlePass = useCallback(() => {
     const currentRooftop = rooftops[currentIndex];
     onPass(currentRooftop);
     setCurrentIndex(prev => prev + 1);
+    setShowDesktopHints(false); // Hide hints after first interaction
   }, [currentIndex, rooftops, onPass]);
 
   const resetDrag = useCallback(() => {
@@ -51,6 +54,7 @@ export const SimpleSwipeCards: React.FC<SimpleSwipeCardsProps> = ({
     const touch = e.touches[0];
     setStartPosition({ x: touch.clientX, y: touch.clientY });
     setIsDragging(true);
+    setShowDesktopHints(false);
   }, []);
 
   const handleTouchMove = useCallback((e: React.TouchEvent) => {
@@ -87,6 +91,7 @@ export const SimpleSwipeCards: React.FC<SimpleSwipeCardsProps> = ({
   const handleMouseDown = useCallback((e: React.MouseEvent) => {
     setStartPosition({ x: e.clientX, y: e.clientY });
     setIsDragging(true);
+    setShowDesktopHints(false);
   }, []);
 
   const handleMouseMove = useCallback((e: React.MouseEvent) => {
@@ -153,7 +158,46 @@ export const SimpleSwipeCards: React.FC<SimpleSwipeCardsProps> = ({
   const isSwipingLeft = dragOffset.x < -50;
 
   return (
-    <div className="max-w-sm mx-auto">
+    <div className="max-w-sm mx-auto relative">
+      {/* Desktop Drag Hints - Only show on desktop and when not dragging */}
+      {showDesktopHints && !isDragging && (
+        <>
+          {/* Left Arrow Hint */}
+          <div className="absolute -left-16 top-1/2 transform -translate-y-1/2 z-20">
+            <div className="flex flex-col items-center space-y-2">
+              <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center animate-bounce">
+                <ArrowLeft className="w-6 h-6 text-red-500" />
+              </div>
+              <div className="text-xs font-medium text-red-500 bg-white px-2 py-1 rounded-full shadow-sm">
+                Pass
+              </div>
+            </div>
+          </div>
+
+          {/* Right Arrow Hint */}
+          <div className="absolute -right-16 top-1/2 transform -translate-y-1/2 z-20">
+            <div className="flex flex-col items-center space-y-2">
+              <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center animate-bounce">
+                <ArrowRight className="w-6 h-6 text-green-500" />
+              </div>
+              <div className="text-xs font-medium text-green-500 bg-white px-2 py-1 rounded-full shadow-sm">
+                Like
+              </div>
+            </div>
+          </div>
+
+          {/* Center Drag Hint */}
+          <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+            <div className="bg-black/20 rounded-2xl p-4 backdrop-blur-sm">
+              <div className="flex items-center space-x-3 text-white">
+                <MousePointer className="w-5 h-5 animate-pulse" />
+                <span className="text-sm font-medium">Click & drag to explore</span>
+              </div>
+            </div>
+          </div>
+        </>
+      )}
+
       <div 
         ref={cardRef}
         className={`bg-white rounded-2xl shadow-xl overflow-hidden cursor-grab active:cursor-grabbing transition-transform duration-200 ${
@@ -188,6 +232,26 @@ export const SimpleSwipeCards: React.FC<SimpleSwipeCardsProps> = ({
               PASS
             </div>
           </div>
+        )}
+
+        {/* Drag Direction Arrows - Show when dragging */}
+        {isDragging && Math.abs(dragOffset.x) > 20 && (
+          <>
+            {dragOffset.x > 0 && (
+              <div className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10">
+                <div className="bg-green-500 text-white p-2 rounded-full animate-pulse">
+                  <ArrowRight className="w-6 h-6" />
+                </div>
+              </div>
+            )}
+            {dragOffset.x < 0 && (
+              <div className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10">
+                <div className="bg-red-500 text-white p-2 rounded-full animate-pulse">
+                  <ArrowLeft className="w-6 h-6" />
+                </div>
+              </div>
+            )}
+          </>
         )}
 
         {/* Image */}
@@ -285,22 +349,76 @@ export const SimpleSwipeCards: React.FC<SimpleSwipeCardsProps> = ({
         </div>
       </div>
 
-      {/* Progress indicator */}
-      <div className="mt-4 text-center">
-        <p className="text-sm text-gray-500">
-          {currentIndex + 1} of {rooftops.length} rooftops
-        </p>
-        <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
-          <div 
-            className="bg-gradient-to-r from-blue-600 to-purple-600 h-2 rounded-full transition-all duration-300"
-            style={{ width: `${((currentIndex + 1) / rooftops.length) * 100}%` }}
-          />
+      {/* Cool Progress & Stats Section */}
+      <div className="mt-6 bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-4 border border-blue-100/50">
+        {/* Progress Bar with Animation */}
+        <div className="mb-4">
+          <div className="flex justify-between items-center mb-2">
+            <span className="text-sm font-semibold text-gray-700">
+              Rooftop Explorer
+            </span>
+            <span className="text-sm font-bold text-blue-600">
+              {currentIndex + 1} of {rooftops.length}
+            </span>
+          </div>
+          <div className="relative w-full bg-white rounded-full h-3 shadow-inner border border-gray-200">
+            <div 
+              className="absolute top-0 left-0 h-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full transition-all duration-500 ease-out shadow-sm"
+              style={{ width: `${((currentIndex + 1) / rooftops.length) * 100}%` }}
+            />
+            <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-r from-transparent via-white/20 to-transparent rounded-full animate-pulse" />
+          </div>
         </div>
-      </div>
 
-      {/* Swipe instructions */}
-      <div className="mt-4 text-center text-xs text-gray-400">
-        <p>Swipe left to pass • Swipe right to like</p>
+        {/* Stats Row */}
+        <div className="grid grid-cols-3 gap-3 mb-4">
+          <div className="text-center">
+            <div className="text-lg font-bold text-green-600">{likedRooftops.length}</div>
+            <div className="text-xs text-gray-500">Liked</div>
+          </div>
+          <div className="text-center">
+            <div className="text-lg font-bold text-red-600">{currentIndex - likedRooftops.length}</div>
+            <div className="text-xs text-gray-500">Passed</div>
+          </div>
+          <div className="text-center">
+            <div className="text-lg font-bold text-blue-600">
+              {rooftops.length - currentIndex}
+            </div>
+            <div className="text-xs text-gray-500">Remaining</div>
+          </div>
+        </div>
+
+        {/* Interactive Swipe Instructions */}
+        <div className="flex items-center justify-center space-x-6">
+          <div className="flex items-center space-x-2 text-red-500">
+            <div className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center">
+              <X className="w-4 h-4" />
+            </div>
+            <span className="text-xs font-medium">Swipe Left</span>
+          </div>
+          
+          <div className="flex-1 text-center">
+            <div className="inline-flex items-center space-x-2 bg-white px-3 py-1 rounded-full shadow-sm border border-gray-200">
+              <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
+              <span className="text-xs font-medium text-gray-600">Drag to explore</span>
+              <div className="w-2 h-2 bg-purple-500 rounded-full animate-pulse" />
+            </div>
+          </div>
+          
+          <div className="flex items-center space-x-2 text-green-500">
+            <span className="text-xs font-medium">Swipe Right</span>
+            <div className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center">
+              <Heart className="w-4 h-4" />
+            </div>
+          </div>
+        </div>
+
+        {/* Completion Percentage */}
+        <div className="mt-3 text-center">
+          <div className="text-xs text-gray-500">
+            {Math.round(((currentIndex + 1) / rooftops.length) * 100)}% Complete
+          </div>
+        </div>
       </div>
     </div>
   );
